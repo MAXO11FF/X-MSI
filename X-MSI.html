@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>X-MSI Emulator</title>
+    <style>
+        #supportText {
+            position: fixed;
+            top: 0.7%;
+            left: 68.5%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            font-size: 20px;
+            color: #eeff00;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+        <p id="supportText">Support Us 💗</p>
+    </a>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>X-MSI Emulator</title>
+    <style>
+        #youtubeImage {
+            position: fixed;
+            top: 4%;
+            left: 80%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://youtube.com/@farhan._.h4x01?si=S1XwVJZIbB3qVCpc" target="_blank">
+        <img id="youtubeImage" src="youtube_image.png" alt="YouTube Image" style="width: 50px; height: 50px;">
+    </a>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>X-MSI Emulator</title>
+    <style>
+        #instagramImage {
+            position: fixed;
+            top: 4%;
+            left: 77%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.instagram.com/maxo_.1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+        <img id="instagramImage" src="instagram_image.png" alt="Instagram Image" style="width: 25px; height: 25px;">
+    </a>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>X-MSI Emulator</title>
+    <style>
+        #discordImage {
+            position: fixed;
+            top: 4%;
+            left: 74.3%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://discord.gg/QqTPVtCNYw" target="_blank">
+        <img id="discordImage" src="discord_image.png" alt="Discord Image" style="width: 30px; height: 30px;">
+    </a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-MSI Emulator</title>
+    <style>
+        /* Ensure the body and html take full height */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* Style for the background video */
+        .background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Makes sure the video covers the entire background */
+            z-index: -1; /* Keeps the video behind other content */
+        }
+
+        /* Basic styling for the content */
+        .content {
+            position: relative;
+            z-index: 1; /* Ensures content is above the video */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Download button style */
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #e63946; /* Red color for button */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .download-button:hover {
+            background-color: #d62839; /* Darker red for hover effect */
+        }
+
+        /* Waving text effect with RGB colors */
+        .waving-text {
+            display: inline-block;
+            font-size: 36px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: bold;
+            color: red;
+            position: relative;
+            background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,165,0,1) 50%, rgba(255,0,0,1) 100%);
+            background-size: 200% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: wave 1s infinite, color-wave 3s infinite;
+        }
+
+        @keyframes wave {
+            0% { transform: translateY(0); }
+            25% { transform: translateY(-10px); }
+            50% { transform: translateY(0); }
+            75% { transform: translateY(10px); }
+            100% { transform: translateY(0); }
+        }
+
+        @keyframes color-wave {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 100% 0%; }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .content {
+                font-size: 16px;
+            }
+
+            .waving-text {
+                font-size: 24px;
+            }
+
+            .download-button {
+                font-size: 16px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Video -->
+    <video class="background-video" autoplay muted loop>
+        <source src="background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Content -->
+    <div class="content">
+        <h1 class="waving-text">Welcome to X-MSI</h1>
+        <p>X DRAGON LIKE EMULATOR FOR FREE.</p>
+        <a href="https://drive.google.com/file/d/1bpkg-Q0XRVH2UtQeqOjH13vcH7ak_45l/view?usp=sharing" class="download-button" target="_blank">Download</a>
+    </div>
+</body>
+</html>
